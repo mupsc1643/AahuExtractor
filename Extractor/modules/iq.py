@@ -47,7 +47,7 @@ async def login(app, m, all_urls, start_time, bname, batch_id, app_name, price=N
         f"├─ 📑 Documents: {doc_count}\n"
         f"└─ 🔐 Protected: {drm_count}\n\n"
         f"🚀 <b>Extracted by:</b> @{(await app.get_me()).username}\n\n"
-        f"<code>╾───• U G  Extractor Pro •───╼</code>"
+        f"<code>╾───• @PRO_TXT_EXTRATOR_BOT •───╼</code>"
     )
     
     async with aiofiles.open(file_path, 'w', encoding='utf-8') as f:
