@@ -210,7 +210,7 @@ async def appex_v5_txt(app, message, api, name):
     
     login_prompt = (
         "━━━━━━━━━━━━━━━━━━━━━\n"
-        "🎭 <b>ᴜɢ ᴇxᴛʀᴀᴄᴛᴏʀ ᴘʀᴏ</b> 🎭\n"
+        "🎭 <b>PRO_TXT_EXTRATOR_BOT</b> 🎭\n"
         "━━━━━━━━━━━━━━━━━━━━━\n\n"
         "📝 <b>ʜᴏᴡ ᴛᴏ ʟᴏɢɪɴ:</b>\n\n"
         "1️⃣ ᴜsᴇ ɪᴅ & ᴘᴀssᴡᴏʀᴅ:\n"
