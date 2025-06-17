@@ -475,7 +475,7 @@ async def appex_v5_txt(app, message, api, name):
                         f"⏱ **Tɪᴍᴇ Tᴀᴋᴇɴ** : {elapsed_time:.1f}s\n"
                         f"📅 **Dᴀᴛᴇ** : {time_new}\n"
                         "━━━━━━━━━━━━━━━━━━━━━\n"
-                        "🔰 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @UGExtractorPro"
+                        "🔰 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @PRO_TXT_EXTRATOR_BOT"
                     )
                 
                     try:
