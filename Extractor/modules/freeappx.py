@@ -555,7 +555,7 @@ async def process_appxwp(bot: Client, m: Message, user_id: int):
                         f"📱 <b>APP:</b> {selected_app_name}\n"
                         f"📚 <b>TOTAL COURSES:</b> {total}\n"
                         f"📅 <b>DATE:</b> {time_new} IST\n\n"
-                        f"<code>╾───• U G  Extractor Pro •───╼</code>\n\n"
+                        f"<code>╾───• @PRO_TXT_EXTRATOR_BOT •───╼</code>\n\n"
                         "Send the index number to download course"
                     )
                                 
