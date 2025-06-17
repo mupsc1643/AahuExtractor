@@ -415,7 +415,7 @@ Send batch ID to start extraction...
 ├─ Videos: <code>{batch_name}_videos.txt</code>
 └─ PDFs: <code>{batch_name}_PDFs.zip</code>
 
-<code>╾───• UG Extractor Pro •───╼</code>""")
+<code>╾───• @PRO_TXT_EXTRATOR_BOT •───╼</code>""")
 
         except Exception as e:
             await self.send_message(f"""
