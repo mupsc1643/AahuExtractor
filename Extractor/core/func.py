@@ -75,7 +75,7 @@ async def subscribe(app, message):
 
                 # 2. Send the invite message
                 sent = await message.reply_photo(
-                    photo="https://telegra.ph/file/b7a933f423c153f866699.jpg",
+                    photo="https://i.ibb.co/qYszKKFN/arafed-warrior-standing-front-mountain-with-sword-generative-ai-955925-50481.jpg",
                     caption=script.FORCE_MSG.format(message.from_user.mention),
                     reply_markup=InlineKeyboardMarkup([[
                         InlineKeyboardButton("🤖 ɴᴇᴇᴅ ᴀᴘᴘʀᴏᴠᴀʟ ᴛᴏ ᴊᴏɪɴ 🤖", url=link)
