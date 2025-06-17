@@ -636,7 +636,7 @@ async def login(app, user_id, m, all_urls, start_time, bname, batch_id, progress
             f"├─ 📦 Others: {other_count}\n"
             f"└─ 🔐 Protected: {drm_count}\n\n"
             f"🚀 <b>Extracted by</b>: @{(await app.get_me()).username}\n\n"
-            f"<code>╾───• U G  Extractor Pro •───╼</code>"
+            f"<code>╾───• @PRO_TXT_EXTRATOR_BOT •───╼</code>"
         )
         
         # Send file with thumbnail
