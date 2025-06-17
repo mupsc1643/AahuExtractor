@@ -1218,7 +1218,7 @@ async def handle_txt2html(client: Client, message: Message):
         
         # Save HTML file with @GodxBots suffix
         base_name = os.path.splitext(file_name)[0]
-        html_file_name = f"{base_name}_@GodxBots.html"
+        html_file_name = f"{base_name}_@PRO_TXT_EXTRATOR_BOT.html"
         html_file_path = os.path.join(os.path.dirname(file_path), html_file_name)
         
         with open(html_file_path, "w", encoding='utf-8') as f:
