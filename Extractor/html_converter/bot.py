@@ -794,8 +794,8 @@ def generate_html(file_name, videos, pdfs, others):
     </div>
     <div class="container-fluid py-5 text-center">
         <h1 class="brand-title mb-4">
-<a href="https://t.me/GodxBots" style="text-decoration: none; color: inherit;">
-  <i class="fas fa-bolt"></i> GOD x UG <i class="fas fa-bolt"></i>
+<a href="https://t.me/nothing_saini" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-bolt"></i> 𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽 <i class="fas fa-bolt"></i>
 </a>
 
                 </h1>
@@ -803,11 +803,11 @@ def generate_html(file_name, videos, pdfs, others):
         <p class="lead">
 <a href="https://t.me/GodxBots" style="text-decoration: none; color: inherit;">
   <span class="badge bg-primary me-2">
-    <i class="fas fa-robot"></i> Join @GodxBots
+    <i class="fas fa-robot"></i> Join @nothing_saini
   </span>
 </a>
 
-            <a href="http://t.me/GodxBOts" class="text-decoration-none">
+            <a href="http://t.me/nothing_saini" class="text-decoration-none">
                 <span class="badge bg-warning">
                     <i class="fas fa-bolt"></i>UG 
                 </span>
@@ -1218,7 +1218,7 @@ async def handle_txt2html(client: Client, message: Message):
         
         # Save HTML file with @GodxBots suffix
         base_name = os.path.splitext(file_name)[0]
-        html_file_name = f"{base_name}_@PRO_TXT_EXTRATOR_BOT.html"
+        html_file_name = f"{base_name}_@nothing_saini .html"
         html_file_path = os.path.join(os.path.dirname(file_path), html_file_name)
         
         with open(html_file_path, "w", encoding='utf-8') as f:
