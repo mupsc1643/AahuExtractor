@@ -130,7 +130,7 @@
 📅 <b>ᴅᴀᴛᴇ:</b> {date}
 
 ━━━━━━━━━━━━━━━━━━━━━
-🔰 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @UGExtractorPro
+🔰 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @nothing_saini
 ```
 
 ## Error Messages
