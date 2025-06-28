@@ -15,10 +15,10 @@ BOT_TEXT = "PRO_TXT_EXTRATOR_BOT"
 OWNER_ID = int(os.environ.get("OWNER_ID", "7326627068"))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002698675011"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002606919098"))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002618534160")) 
+CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002684674627")) 
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://vikassonawale0:JWyQFas7vlG1bkaL@cluster0.beermge.mongodb.net/?retryWrites=true&w=majority")
 # -----------------------------------------------
@@ -30,7 +30,7 @@ UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
 UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
-ADMIN_BOT_USERNAME = "@PRO_TXT_EXTRATOR_BOT" #without @
+ADMIN_BOT_USERNAME = "Saini_extractor_bot" #without @
 
 THUMB_URL = os.environ.get("THUMB_URL", "https://i.ibb.co/JWwQmgvQ/360-F-1056787073-t-K27-Cw-C8-PNCHsnn7lo88-Sz7y4-YFpw-KNd.webp")
 
