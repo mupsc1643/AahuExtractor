@@ -10,7 +10,7 @@ API_HASH = os.environ.get("API_HASH","dfb366687851460a58461c5a50f5b")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7835844710:AAE66mbYEhUU6nQ_eVd9LkKeJpblqE")
 # ------------------------------------------------
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "@PRO_TXT_EXTRATOR_BOT")
-BOT_TEXT = "PRO_TXT_EXTRATOR_BOT"
+BOT_TEXT = "@Saini_extractor_bot"
 # ------------------------------------------------
 OWNER_ID = int(os.environ.get("OWNER_ID", "7326627068"))
 # ------------------------------------------------
@@ -24,7 +24,7 @@ MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://vikassonawale0:JWyQFas7vl
 # -----------------------------------------------
 PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002694695011"))
 # -----------------------------------------------
-join = '<a href="https://t.me/+MgPgCAPUOVU2Yjhl">✳️ JOIN BACKUP</a>'
+join = '<a href="https://t.me/nothing_saini">✳️ JOIN BACKUP</a>'
 # -----------------------------------------------
 UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
