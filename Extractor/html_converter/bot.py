@@ -801,7 +801,7 @@ def generate_html(file_name, videos, pdfs, others):
                 </h1>
         <h2 class="header-title mb-4">{file_name_without_extension}</h2>
         <p class="lead">
-<a href="https://t.me/GodxBots" style="text-decoration: none; color: inherit;">
+<a href="https://t.me/nothing_saini" style="text-decoration: none; color: inherit;">
   <span class="badge bg-primary me-2">
     <i class="fas fa-robot"></i> Join @nothing_saini
   </span>
@@ -809,7 +809,7 @@ def generate_html(file_name, videos, pdfs, others):
 
             <a href="http://t.me/nothing_saini" class="text-decoration-none">
                 <span class="badge bg-warning">
-                    <i class="fas fa-bolt"></i>UG 
+                    <i class="fas fa-bolt"></i>𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽
                 </span>
             </a>
         </p>
@@ -1216,7 +1216,7 @@ async def handle_txt2html(client: Client, message: Message):
         # Generate HTML
         html_content = generate_html(file_name, videos, pdfs, others)
         
-        # Save HTML file with @GodxBots suffix
+        # Save HTML file with @nothing_saini suffix
         base_name = os.path.splitext(file_name)[0]
         html_file_name = f"{base_name}_@nothing_saini .html"
         html_file_path = os.path.join(os.path.dirname(file_path), html_file_name)
@@ -1229,11 +1229,12 @@ async def handle_txt2html(client: Client, message: Message):
             document=html_file_path,
             thumb=thumb_path if thumb_path else None,
             caption="<blockquote>✨ ʜᴛᴍʟ ꜰɪʟᴇ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ!</blockquote>\n\n"
-            "• 🖤 ᴜʟᴛʀᴀ ᴍᴏᴅᴇʀɴ ᴅᴀʀᴋ ᴜɪ\n"
+            "•  ᴜʟᴛʀᴀ ᴍᴏᴅᴇʀɴ ᴅᴀʀᴋ ᴜɪ\n"
             "• 🎬 ꜱᴍᴀʀᴛ ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ\n"
             "• 📄 ᴘᴅꜰ ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜᴘᴘᴏʀᴛ\n"
             "• ✨ ʙᴇᴀᴜᴛɪꜰᴜʟ ᴀɴɪᴍᴀᴛɪᴏɴꜱ\n"
-            "• 🧭 ꜰʟᴏᴀᴛɪɴɢ ᴄᴏɴᴛʀᴏʟꜱ",
+            "• 🧭 ꜰʟᴏᴀᴛɪɴɢ ᴄᴏɴᴛʀᴏʟꜱ\n"
+            "• 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/nothing_saini'><i>𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽</i> </a>",
     file_name=html_file_name
 )
 
@@ -1254,11 +1255,12 @@ async def handle_txt2html(client: Client, message: Message):
 async def show_txt2html_help(client: Client, message: Message):
     await message.reply_text(
         "<b>📝 ᴛxᴛ ➜ ʜᴛᴍʟ ᴄᴏɴᴠᴇʀᴛᴇʀ</b>\n"
-        "<blockquote>• ᴍᴏᴅᴇʀɴ ᴅᴀʀᴋ ᴛʜᴇᴍᴇ ᴜɪ 🖤</blockquote>\n"
+        "<blockquote>• ᴍᴏᴅᴇʀɴ ᴅᴀʀᴋ ᴛʜᴇᴍᴇ ᴜɪ </blockquote>\n"
         "<blockquote>• ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ 🎬</blockquote>\n"
         "<blockquote>• ᴘᴅꜰ ᴅᴏᴄᴜᴍᴇɴᴛ ꜱᴇᴄᴛɪᴏɴ 📄</blockquote>\n"
         "<blockquote>• ꜱᴍᴀʀᴛ ꜱᴇᴀʀᴄʜ ꜰᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ 🔎</blockquote>\n"
         "<blockquote>• ʀᴇꜱᴘᴏɴꜱɪᴠᴇ ᴅᴇꜱɪɢɴ 📱</blockquote>\n"
-        "<b>📩 ꜱᴇɴᴅ ᴀ .ᴛxᴛ ꜰɪʟᴇ ᴛᴏ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ!</b>"
+        "<b>📩 ꜱᴇɴᴅ ᴀ .ᴛxᴛ ꜰɪʟᴇ ᴛᴏ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ!</b>\n"
+        " 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/nothing_saini'><i>𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽</i> </a>"
     )
 
