@@ -20,7 +20,7 @@
     },
     "BOT_USERNAME": {
       "description": "Your Bot Username",
-      "value": "@AbhiTXT1bot",
+      "value": "@AshuExtractorBot",
       "required": true
     },
     "OWNER_ID": {
