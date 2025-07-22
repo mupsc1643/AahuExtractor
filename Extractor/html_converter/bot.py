@@ -1216,9 +1216,9 @@ async def handle_txt2html(client: Client, message: Message):
         # Generate HTML
         html_content = generate_html(file_name, videos, pdfs, others)
         
-        # Save HTML file with @nothing_saini suffix
+        # Save HTML file with @IFSAshuAbhiBot suffix
         base_name = os.path.splitext(file_name)[0]
-        html_file_name = f"{base_name}_@nothing_saini .html"
+        html_file_name = f"{base_name}_@IFSAshuAbhiBot .html"
         html_file_path = os.path.join(os.path.dirname(file_path), html_file_name)
         
         with open(html_file_path, "w", encoding='utf-8') as f:
@@ -1234,7 +1234,7 @@ async def handle_txt2html(client: Client, message: Message):
             "• 📄 ᴘᴅꜰ ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜᴘᴘᴏʀᴛ\n"
             "• ✨ ʙᴇᴀᴜᴛɪꜰᴜʟ ᴀɴɪᴍᴀᴛɪᴏɴꜱ\n"
             "• 🧭 ꜰʟᴏᴀᴛɪɴɢ ᴄᴏɴᴛʀᴏʟꜱ\n"
-            "• 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/nothing_saini'><i>𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽</i> </a>",
+            "• 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/IFSAshuAbhiBoti'><i>༄ᶦᶰᵈआशु࿐❥◉🇮🇳™</i> </a>",
     file_name=html_file_name
 )
 
@@ -1261,6 +1261,6 @@ async def show_txt2html_help(client: Client, message: Message):
         "<blockquote>• ꜱᴍᴀʀᴛ ꜱᴇᴀʀᴄʜ ꜰᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ 🔎</blockquote>\n"
         "<blockquote>• ʀᴇꜱᴘᴏɴꜱɪᴠᴇ ᴅᴇꜱɪɢɴ 📱</blockquote>\n"
         "<b>📩 ꜱᴇɴᴅ ᴀ .ᴛxᴛ ꜰɪʟᴇ ᴛᴏ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ!</b>\n"
-        " 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/nothing_saini'><i>𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽</i> </a>"
+        " 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/IFSAshuAbhiBot'><i>༄ᶦᶰᵈआशु࿐❥◉🇮🇳™</i> </a>"
     )
 
