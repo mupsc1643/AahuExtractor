@@ -5,37 +5,37 @@
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
-      "value": "24389326",
+      "value": "20567114",
       "required": true
     },
     "API_HASH": {
       "description": "Your Telegram API Hash",
-      "value": "e516c423e3edd76854e1c0741863f6f0",
+      "value": "8a5b92106e45fc6637a65a67df060a65",
       "required": true
     },
     "BOT_TOKEN": {
       "description": "Your Telegram Bot Token",
-      "value": "7601649831:AAEMQ9chNVKZe2hm4wEHN4nmgBd8vqeOvKI",
+      "value": "8090907579:AAE5bN3xZmCbuuj9-NH_IEbWjVpq6awfFrk",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "Your Bot Username",
-      "value": "@DRM_DawnloadHub_bot",
+      "value": "@AbhiTXT1bot",
       "required": true
     },
     "OWNER_ID": {
       "description": "Your Telegram User ID (Owner)",
-      "value": "8019643178",
+      "value": "8036182138",
       "required": true
     },
     "SUDO_USERS": {
       "description": "Comma-separated list of sudo users' IDs",
-      "value": "8019643178",
+      "value": "8036182138",
       "required": false
     },
     "CHANNEL_ID": {
       "description": "Your channel ID",
-      "value": "-1002483597533",
+      "value": "-1002441127578",
       "required": true
     },
     "MONGO_URL": {
@@ -45,7 +45,7 @@
     },
     "PREMIUM_LOGS": {
       "description": "Flag for premium logs (0 for off, 1 for on)",
-      "value": "-1002694370609",
+      "value": "-1002441127578",
       "required": true
     }
   },
