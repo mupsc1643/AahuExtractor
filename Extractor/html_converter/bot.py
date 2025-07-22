@@ -794,22 +794,22 @@ def generate_html(file_name, videos, pdfs, others):
     </div>
     <div class="container-fluid py-5 text-center">
         <h1 class="brand-title mb-4">
-<a href="https://t.me/nothing_saini" style="text-decoration: none; color: inherit;">
-  <i class="fas fa-bolt"></i> 𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽 <i class="fas fa-bolt"></i>
+<a href="https://t.me/IFSAshuAbhiBot" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-bolt"></i> ༄ᶦᶰᵈआशु࿐❥◉🇮🇳™<i class="fas fa-bolt"></i>
 </a>
 
                 </h1>
         <h2 class="header-title mb-4">{file_name_without_extension}</h2>
         <p class="lead">
-<a href="https://t.me/nothing_saini" style="text-decoration: none; color: inherit;">
+<a href="https://t.me/IFSAshuAbhiBot" style="text-decoration: none; color: inherit;">
   <span class="badge bg-primary me-2">
-    <i class="fas fa-robot"></i> Join @nothing_saini
+    <i class="fas fa-robot"></i> Join @IFSAshuAbhiBot
   </span>
 </a>
 
             <a href="http://t.me/nothing_saini" class="text-decoration-none">
                 <span class="badge bg-warning">
-                    <i class="fas fa-bolt"></i>𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽
+                    <i class="fas fa-bolt"></i>༄ᶦᶰᵈआशु࿐❥◉🇮🇳™
                 </span>
             </a>
         </p>
@@ -875,7 +875,7 @@ def generate_html(file_name, videos, pdfs, others):
         f'<div class="item-actions">'
         f'<button class="btn-action view" onclick="viewPDF(\'{obfuscate_url(url)}\')" title="View PDF">'
         f'<i class="fas fa-eye"></i></button>'
-        f'<button class="btn-action download" onclick="downloadFile(\'{obfuscate_url(url)}\', \'{name} - @GodxBots.pdf\')" title="Download PDF">'
+        f'<button class="btn-action download" onclick="downloadFile(\'{obfuscate_url(url)}\', \'{name} - @IFSAshuAbhiBot.pdf\')" title="Download PDF">'
         f'<i class="fas fa-download"></i></button>'
         f'</div>'
         f'</div>'
@@ -1234,7 +1234,7 @@ async def handle_txt2html(client: Client, message: Message):
             "• 📄 ᴘᴅꜰ ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴜᴘᴘᴏʀᴛ\n"
             "• ✨ ʙᴇᴀᴜᴛɪꜰᴜʟ ᴀɴɪᴍᴀᴛɪᴏɴꜱ\n"
             "• 🧭 ꜰʟᴏᴀᴛɪɴɢ ᴄᴏɴᴛʀᴏʟꜱ\n"
-            "• 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/IFSAshuAbhiBoti'><i>༄ᶦᶰᵈआशु࿐❥◉🇮🇳™</i> </a>",
+            "• 🚀 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ <a href='https://t.me/IFSAshuAbhiBot'><i>༄ᶦᶰᵈआशु࿐❥◉🇮🇳™</i> </a>",
     file_name=html_file_name
 )
 
