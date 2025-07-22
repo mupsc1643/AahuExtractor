@@ -15,7 +15,7 @@
     },
     "BOT_TOKEN": {
       "description": "Your Telegram Bot Token",
-      "value": "8090907579:AAE5bN3xZmCbuuj9-NH_IEbWjVpq6awfFrk",
+      "value": "8024972578:AAFahP8njNmQjN7Xywyo8BQ9Z_Q-232K7CI",
       "required": true
     },
     "BOT_USERNAME": {
@@ -45,7 +45,7 @@
     },
     "PREMIUM_LOGS": {
       "description": "Flag for premium logs (0 for off, 1 for on)",
-      "value": "-1002441127578",
+      "value": "-1002402673518",
       "required": true
     }
   },
