@@ -32,7 +32,7 @@ UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
 ADMIN_BOT_USERNAME = "AbhiTXT1bot" #without @
 
-THUMB_URL = os.environ.get("THUMB_URL", "https://i.ibb.co/JWwQmgvQ/360-F-1056787073-t-K27-Cw-C8-PNCHsnn7lo88-Sz7y4-YFpw-KNd.webp")
+THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg")
 
 
 
@@ -47,5 +47,5 @@ THUMB_URL = os.environ.get("THUMB_URL", "https://i.ibb.co/JWwQmgvQ/360-F-1056787
 # CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002441127578"))
 # MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://wadiro6523:08AwfhhKRdQaS1i6@cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002402673518"))
-# THUMB_URL = os.environ.get("THUMB_URL", "https://i.fbcd.co/products/original/ug-circle-logo-design-2-e84695ca2ab9a697d2b2d7c928b0bf5f12bf18e076da241815e0372c8d617915.jpg")
+# THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg")
 
