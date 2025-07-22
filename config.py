@@ -9,8 +9,8 @@ API_HASH = os.environ.get("API_HASH","8a5b92106e45fc6637a65a67df060a65")
 # ------------------------------------------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8024972578:AAFahP8njNmQjN7Xywyo8BQ9Z_Q-232K7CI")
 # ------------------------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "@AbhiTXT1bot")
-BOT_TEXT = "@AbhiTXT1bot"
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "@AshuExtractorBot")
+BOT_TEXT = "@AshuExtractorBot"
 # ------------------------------------------------
 OWNER_ID = int(os.environ.get("OWNER_ID", "8036182138"))
 # ------------------------------------------------
@@ -30,7 +30,7 @@ UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
 UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
-ADMIN_BOT_USERNAME = "AbhiTXT1bot" #without @
+ADMIN_BOT_USERNAME = "AshuExtractorBot" #without @
 
 THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/2a5cb7bb0144ccfda3d37-60007d94009e55415f.jpg")
 
