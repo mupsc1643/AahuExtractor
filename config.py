@@ -15,14 +15,14 @@ BOT_TEXT = "@AshuExtractorBot"
 OWNER_ID = int(os.environ.get("OWNER_ID", "8036182138"))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002441127578"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002829360841"))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002441127578")")) 
+CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002829360841")")) 
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://vikassonawale0:JWyQFas7vlG1bkaL@cluster0.beermge.mongodb.net/?retryWrites=true&w=majority")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002402673518"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002829360841"))
 # -----------------------------------------------
 join = '<a href="https://t.me/ifsashu1">✳️ JOIN BACKUP</a>'
 # -----------------------------------------------
