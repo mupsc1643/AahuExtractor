@@ -12,7 +12,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "7799949989:AAFHdpnItcn2ncgSGCSg3WIYfKGe
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "@AshuExtractorBot")
 BOT_TEXT = "@AshuExtractorBot"
 # ------------------------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5463387016"))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002829360841"))
@@ -42,8 +42,8 @@ THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/2a5cb7bb0144ccfd
 # API_HASH = os.environ.get("API_HASH", "827c1a0d4058223737f7a254ec91eaaf")
 # BOT_TOKEN = os.environ.get("BOT_TOKEN", "7799949989:AAFHdpnItcn2ncgSGCSg3WIYfKGeRQ2wodc")
 # BOT_USERNAME = os.environ.get("BOT_USERNAME", "AbhiTXT1bot")
-# OWNER_ID = int(os.environ.get("OWNER_ID", "8036182138"))
-# SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8036182138").split()))
+# OWNER_ID = int(os.environ.get("OWNER_ID", "5463387016"))
+# SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5463387016").split()))
 # CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002441127578"))
 # MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://wadiro6523:08AwfhhKRdQaS1i6@cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002402673518"))
