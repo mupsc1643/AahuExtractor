@@ -5,14 +5,14 @@ from os import getenv
 # ------------------------------------------------
 API_ID = int(os.environ.get("API_ID", "20567114"))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH","8a5b92106e45fc6637a65a67df060a65")
+API_HASH = os.environ.get("API_HASH","827c1a0d4058223737f7a254ec91eaaf")
 # ------------------------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8024972578:AAFahP8njNmQjN7Xywyo8BQ9Z_Q-232K7CI")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7799949989:AAFHdpnItcn2ncgSGCSg3WIYfKGeRQ2wodc")
 # ------------------------------------------------
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "@AshuExtractorBot")
 BOT_TEXT = "@AshuExtractorBot"
 # ------------------------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", "8036182138"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002829360841"))
@@ -39,8 +39,8 @@ THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/2a5cb7bb0144ccfd
 
 # # Bot configuration
 # API_ID = int(os.environ.get("API_ID", "20567114"))
-# API_HASH = os.environ.get("API_HASH", "8090907579:AAE5bN3xZmCbuuj9-NH_IEbWjVpq6awfFrk")
-# BOT_TOKEN = os.environ.get("BOT_TOKEN", "8090907579:AAE5bN3xZmCbuuj9-NH_IEbWjVpq6awfFrk")
+# API_HASH = os.environ.get("API_HASH", "827c1a0d4058223737f7a254ec91eaaf")
+# BOT_TOKEN = os.environ.get("BOT_TOKEN", "7799949989:AAFHdpnItcn2ncgSGCSg3WIYfKGeRQ2wodc")
 # BOT_USERNAME = os.environ.get("BOT_USERNAME", "AbhiTXT1bot")
 # OWNER_ID = int(os.environ.get("OWNER_ID", "8036182138"))
 # SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8036182138").split()))
